@@ -54,23 +54,36 @@ USAGE INSTRUCTIONS:
 FAQ:
 
 Q: What is the point of this?
+
 A: In large organizations, multiple departments need very different suites of software specific to their job duties. Accounting needs one suite, marketing another, etc.
 
+
 Q: Will my network handle this?
+
 A: Talk to your network team. See if they want you to stick to certain timeframes, etc.
 
+
 Q: Why is this a batch file? Why not PowerShell?
+
 A: There's nothing wrong with PowerShell. I'm a minimalist, and this works just fine. i.e., why take the sports car to the grocery store to buy a loaf of bread? 
 
+
 Q: How do I make this install things on silent mode / no interaction required?
+
 A: That is dependent on your command and the executable. Look into msiexec for msi files and the optional switches such as /quiet /qn , etc.
 
+
 Q: This is not working for my installs. What do I do?
+
 A: That's very vague, but check your mapping in the beginning of the script. Make sure you can ping the IP of the server where the executable files live, and verify the directories on said server. This is the number one issue I've encountered (usually someone moved something on the server... or once someone had even re-IPd the server).
 
+
 Q: My users like to map drives and some might have the "Y:" drive already assigned.
+
 A: This is an example script. I've used it many times over the past decades, and customize it to each scenario. I encourage you to play with this and come up with solutions for your needs, such as variables and for loops.
 
+
 Q: Can you help me make this work on my network?
+
 A: No (unless you want to discuss rates) - contact me through artis-machinae.github.io
 There is also loads of great documentation available on the web. I have faith you can figure it out.
